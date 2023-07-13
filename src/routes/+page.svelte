@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Triangles from "../Triangles.svelte";
+</script>
+
+<main>
+    <div class="icons_wrapper">
+        <Triangles />
+    </div>
+</main>
+
+<style>
+    main{
+        background-color: azure;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+
+    div{
+        width: 5rem;
+        height: 5rem;
+    }
+</style>
